@@ -83,7 +83,30 @@ module.exports = function (/* ctx */) {
     framework: {
       iconSet: 'material-icons', // Quasar icon set
       lang: 'en-us', // Quasar language pack
-      config: {},
+      config: {
+        brand: {
+          // primary: 'deep-purple-9',
+          // secondary: 'orange-10',
+          // accent: 'light-green-7',
+          // info: 'cyan-9',
+          // warning: 'yellow-9',
+          // positive: 'green-9',
+          // negative: 'red-10'
+          primary: '#4527a0',
+          secondary: '#e65100',
+          accent: '#7cb342',
+          dark: '#1d1d1d',
+          positive: '#2e7d32',
+          negative: '#b71c1c',
+          info: '#00838f',
+          warning: '#f9a825'
+        },
+        loadingBar: {
+          position: "bottom",
+          color: "accent",
+          size: "10px",
+        },
+      },
 
       // Possible values for "importStrategy":
       // * 'auto' - (DEFAULT) Auto-import needed Quasar components & directives

@@ -1,0 +1,69 @@
+
+ Dev mode.......... spa
+ Pkg quasar........ v1.18.6
+ Pkg @quasar/app... v2.2.11
+ Debugging......... enabled
+
+ Configured browser support (at least 88.13% of global marketshare):
+ · Chrome for Android >= 99
+ · Firefox for Android >= 96
+ · Android >= 99
+ · Chrome >= 90
+ · Edge >= 96
+ · Firefox >= 89
+ · IE >= 11
+ · iOS >= 12.2-12.5
+ · Opera >= 79
+ · Safari >= 13.1
+
+ App · Reading quasar.conf.js
+ App · Checking listening address availability (0.0.0.0:8080)...
+
+ App · ⚠️  ️️Setting port to closest one available: 8082
+
+ App · Transpiling JS (Babel active) - includes IE11 support
+ App · Chaining SPA Webpack config
+ App · Generating Webpack entry point
+ App · Booting up...
+ App · Compiling SPA...
+ App · Compiled SPA done in 24244 ms
+ DONE  Compiled successfully in 24381ms8:00:41 AM
+
+
+ N  App dir........... /home/ec2-user/ws/quasar_dashboard
+    App URL........... http://localhost:8082
+    Dev mode.......... spa
+    Pkg quasar........ v1.18.6
+    Pkg @quasar/app... v2.2.11
+    Transpiled JS..... yes (Babel) - includes IE11 support
+  
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8082/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+
+ Dev mode.......... spa
+ Pkg quasar........ v1.18.6
+ Pkg @quasar/app... v2.2.11
+ Debugging......... enabled
+
+ Configured browser support (at least 88.13% of global marketshare):
+ · Chrome for Android >= 99
+ · Firefox for Android >= 96
+ · Android >= 99
+ · Chrome >= 90
+ · Edge >= 96
+ · Firefox >= 89
+ · IE >= 11
+ · iOS >= 12.2-12.5
+ · Opera >= 79
+ · Safari >= 13.1
+
+ App · Reading quasar.conf.js
+ App · Checking listening address availability (0.0.0.0:8080)...
+
+ App · ⚠️  ️️Setting port to closest one available: 8082
+
+ App · Transpiling JS (Babel active) - includes IE11 support
+ App · Chaining SPA Webpack config
+ App · Generating Webpack entry point
+ App · Booting up...
+ App · Compiling SPA...

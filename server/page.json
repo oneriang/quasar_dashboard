@@ -1,0 +1,22 @@
+{
+    "id": 0,
+    "to": "/pages/0",
+    "label": "page0",
+    "name": "page0",
+    "isOpened": true,
+    "editable": true,
+    "layout": [
+        {
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 10,
+            "i": "ff966acb-0270-43b2-8e38-ae2e460563ed",
+            "moved": false,
+            "grid": {
+                "title": "a",
+                "content": "<p>a</p>"
+            }
+        }
+    ]
+}

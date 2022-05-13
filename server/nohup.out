@@ -1,0 +1,610 @@
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/ws/quasar_dashboard/server']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [20120] using watchgod
+INFO:     Started server process [20128]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     150.249.172.88:63786 - "GET / HTTP/1.1" 200 OK
+INFO:     150.249.172.88:63786 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  WatchGodReload detected file change in '['/home/ec2-user/ws/quasar_dashboard/server/main.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [20128]
+INFO:     Started server process [21392]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     150.249.172.88:51632 - "GET /api/pages HTTP/1.1" 404 Not Found
+INFO:     150.249.172.88:51670 - "GET /api/pages HTTP/1.1" 404 Not Found
+INFO:     150.249.172.88:31943 - "GET /api/pages HTTP/1.1" 404 Not Found
+WARNING:  WatchGodReload detected file change in '['/home/ec2-user/ws/quasar_dashboard/server/main.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [21392]
+INFO:     Started server process [22554]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     150.249.172.88:51817 - "GET /api/pages HTTP/1.1" 200 OK
+WARNING:  WatchGodReload detected file change in '['/home/ec2-user/ws/quasar_dashboard/server/main.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22554]
+INFO:     Started server process [24613]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     150.249.172.88:53158 - "GET /api/pages HTTP/1.1" 200 OK
+WARNING:  WatchGodReload detected file change in '['/home/ec2-user/ws/quasar_dashboard/server/main.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [24613]
+INFO:     Started server process [25639]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/home/ec2-user/ws/quasar_dashboard/server/main.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [25639]
+INFO:     Started server process [25681]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     150.249.172.88:32293 - "GET /api/pages HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     103.203.57.20:53466 - "GET / HTTP/1.1" 200 OK
+WARNING:  WatchGodReload detected file change in '['/home/ec2-user/ws/quasar_dashboard/server/main.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [25681]
+INFO:     Started server process [19494]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     150.249.172.88:34533 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:34679 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:34681 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:63820 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:34703 - "GET /api/pages HTTP/1.1" 200 OK
+WARNING:  WatchGodReload detected file change in '['/home/ec2-user/ws/quasar_dashboard/server/main.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [19494]
+Process SpawnProcess-8:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/subprocess.py", line 76, in subprocess_started
+    target(sockets=sockets)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/server.py", line 60, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/usr/lib64/python3.7/asyncio/runners.py", line 43, in run
+    return loop.run_until_complete(main)
+  File "uvloop/loop.pyx", line 1501, in uvloop.loop.Loop.run_until_complete
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/server.py", line 67, in serve
+    config.load()
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/config.py", line 458, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/importer.py", line 21, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib64/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "./main.py", line 10
+    id: int,
+           ^
+SyntaxError: invalid syntax
+INFO:     Stopping reloader process [20120]
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/ws/quasar_dashboard/server']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [12926] using watchgod
+INFO:     Started server process [12928]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     133.106.39.57:39934 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     133.106.39.57:39948 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     133.106.39.57:39958 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:49012 - "OPTIONS /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:49012 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     Will watch for changes in these directories: ['/home/ec2-user/ws/quasar_dashboard/server']
+ERROR:    [Errno 98] Address already in use
+INFO:     167.94.138.117:47494 - "GET / HTTP/1.1" 200 OK
+INFO:     167.94.138.117:51372 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+INFO:     104.140.188.46:52525 - "GET / HTTP/1.1" 200 OK
+INFO:     150.249.172.88:57469 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:57479 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59318 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59324 - "GET /api/pages HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     27.124.32.182:53332 - "GET / HTTP/1.1" 200 OK
+INFO:     27.124.32.182:55034 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     27.124.32.182:55086 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     27.124.32.182:55124 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     150.249.172.88:59724 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:60112 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:57633 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:63848 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:57653 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:50176 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:57661 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:57689 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:57691 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:54106 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:57701 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:57707 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:56448 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:56620 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:57422 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59973 - "OPTIONS /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59973 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:60002 - "GET /api/pages HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     150.249.172.88:33098 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33110 - "OPTIONS /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33110 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33110 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33110 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33110 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33110 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     74.82.47.2:46280 - "GET / HTTP/1.1" 200 OK
+INFO:     167.248.133.44:39020 - "GET / HTTP/1.1" 200 OK
+INFO:     167.248.133.44:60846 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+INFO:     94.102.61.48:55042 - "GET / HTTP/1.1" 200 OK
+INFO:     133.106.33.50:49116 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     133.106.33.50:49396 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     133.106.33.50:49444 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     133.106.33.50:50096 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     31.46.227.203:56305 - "GET / HTTP/1.0" 200 OK
+INFO:     150.249.172.88:58174 - "GET /api/pages HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     150.249.172.88:58028 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59319 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59319 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:50358 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:50530 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:50530 - "GET /api/pages1 HTTP/1.1" 404 Not Found
+INFO:     150.249.172.88:59337 - "GET /api/pages1 HTTP/1.1" 404 Not Found
+INFO:     150.249.172.88:52044 - "GET /api/pages1 HTTP/1.1" 404 Not Found
+INFO:     150.249.172.88:53796 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:53916 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:53916 - "GET /api/pages1 HTTP/1.1" 404 Not Found
+INFO:     150.249.172.88:57192 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:57202 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59432 - "GET /api/pages1 HTTP/1.1" 404 Not Found
+INFO:     150.249.172.88:57294 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59430 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59664 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59664 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59664 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59680 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59706 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59726 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59734 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59734 - "OPTIONS /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59734 - "PUT /api/pages HTTP/1.1" 422 Unprocessable Entity
+INFO:     150.249.172.88:59734 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59738 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59772 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59772 - "OPTIONS /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59772 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59772 - "GET /api/pages HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     192.241.226.110:34898 - "GET / HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33160 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33226 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33246 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33256 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33272 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33272 - "OPTIONS /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33272 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33272 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33272 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33272 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33272 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33272 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33272 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33272 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33278 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33370 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33378 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33378 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33378 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33378 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33378 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33378 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33378 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33378 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33378 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33544 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33544 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33544 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33546 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33550 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33550 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33680 - "OPTIONS /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33680 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33680 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33680 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33680 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:33682 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     103.203.57.20:59358 - "GET / HTTP/1.1" 200 OK
+INFO:     157.230.124.212:54058 - "GET / HTTP/1.1" 200 OK
+INFO:     143.110.216.4:47126 - "GET / HTTP/1.1" 200 OK
+INFO:     23.94.186.38:45842 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     89.248.171.23:32806 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     133.106.33.143:48988 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     133.106.33.143:49206 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     133.106.33.143:49212 - "OPTIONS /api/pages HTTP/1.1" 200 OK
+INFO:     133.106.33.143:49212 - "PUT /api/pages HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     133.106.33.150:54720 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:61212 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:65165 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:61286 - "OPTIONS /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:61286 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:61286 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:61352 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:65183 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:65185 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:62418 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:65189 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:65193 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:63024 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:65233 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:64436 - "OPTIONS /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:64436 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     74.82.47.2:60616 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     150.249.172.88:58612 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:65467 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:65487 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:61274 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:63516 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:63900 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:1035 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:50618 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:51760 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:1057 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:52178 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:52298 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:1063 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:1073 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     177.12.58.195:43145 - "GET / HTTP/1.0" 200 OK
+INFO:     150.249.172.88:1079 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:54684 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:54745 - "OPTIONS /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:54745 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:1091 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:56690 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:56690 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59570 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59826 - "OPTIONS /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59826 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59826 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59826 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:59826 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:1227 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:1241 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:51001 - "OPTIONS /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:51001 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:51134 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:51220 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:51479 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:51890 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:52112 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:52438 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:52485 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:52682 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:52946 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:52978 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:53799 - "OPTIONS /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:53799 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:53799 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:53918 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:55705 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:55705 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:56227 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:56337 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:56442 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:56733 - "OPTIONS /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:56733 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:56776 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:57105 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:57105 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:58694 - "PUT /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:58694 - "GET /api/pages HTTP/1.1" 200 OK
+WARNING:  WatchGodReload detected file change in '['/home/ec2-user/ws/quasar_dashboard/server/main.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12928]
+INFO:     Started server process [5950]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     150.249.172.88:62138 - "GET /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:62261 - "OPTIONS /api/pages HTTP/1.1" 200 OK
+INFO:     150.249.172.88:62261 - "PUT /api/pages HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 372, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/routing.py", line 228, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/anyio/to_thread.py", line 29, in run_sync
+    limiter=limiter)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "./main.py", line 50, in update_pages
+    json.dump(page.dict(), f, indent=4)
+NameError: name 'page' is not defined
+INFO:     150.249.172.88:62317 - "GET /api/pages HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 372, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/routing.py", line 228, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/anyio/to_thread.py", line 29, in run_sync
+    limiter=limiter)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "./main.py", line 44, in read_pages
+    pages = json.load(f)
+  File "/usr/lib64/python3.7/json/__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/usr/lib64/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib64/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib64/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:     150.249.172.88:62334 - "GET /api/pages HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 372, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/routing.py", line 228, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/anyio/to_thread.py", line 29, in run_sync
+    limiter=limiter)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "./main.py", line 44, in read_pages
+    pages = json.load(f)
+  File "/usr/lib64/python3.7/json/__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/usr/lib64/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib64/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib64/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:     150.249.172.88:62592 - "GET /api/pages HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 372, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/routing.py", line 228, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/starlette/concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/anyio/to_thread.py", line 29, in run_sync
+    limiter=limiter)
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/anyio/_backends/_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "./main.py", line 44, in read_pages
+    pages = json.load(f)
+  File "/usr/lib64/python3.7/json/__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/usr/lib64/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib64/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib64/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5950]
+INFO:     Stopping reloader process [12926]
